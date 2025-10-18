@@ -1,0 +1,14 @@
+Return-Path: <bounce@example.com>
+From: "Support" <support@example.com>
+To: user@example.org
+Subject: Verify your account
+Authentication-Results: mx.example.org; spf=fail smtp.mailfrom=example.com; dkim=fail header.d=example.com; dmarc=none
+Received: from mail-wm1.example.net (mail-wm1.example.net [203.0.113.10]) by mx.example.org with ESMTPS id abc123 for <user@example.org>; Mon, 1 Jan 2025 12:00:00 +0000 (UTC)
+MIME-Version: 1.0
+Content-Type: text/html
+
+<html>
+<body>
+<p>Please verify your account at <a href="https://secure-verify.xyz/login">this link</a>.</p>
+</body>
+</html>
